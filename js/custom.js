@@ -1,6 +1,9 @@
+
+
 $.ajax({
 	url:"projects.json",
 	success:function(data){
+		
 		$.each(data,function(key,value){
 		var links=getLinks(value.links);
 		var detailsDashboard =getDetails(value.dashboard,'Dashboard');

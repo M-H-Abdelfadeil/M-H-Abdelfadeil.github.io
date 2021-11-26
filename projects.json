@@ -147,7 +147,7 @@
                 "CRUD (create - read - update  -delete )real estate",
                 "CRUD (create - read - update  -delete ) locations",
                 "update name and update password",
-                "Reset password",
+                "Reset password"
                 
             ]
             
@@ -156,7 +156,7 @@
             "site capabilities":[
                 "Last real estate",
                 "all real estate",
-                "Real estate in a designated place",
+                "Real estate in a designated place"
             ]
         }
     },
