@@ -134,6 +134,33 @@
         }
     },
     "3":{
+        "title":"DEV EGY",
+        "description":"A company dedicated to real estate, whether it is apartments, administrative units and other units",
+        "links":{
+            "site":"https://developer-egy.com",
+            "youtube":null,
+            "github":null
+        },
+        "tools":"PHP - MySQL",
+        "dashboard":{
+            "control panel capabilities":[
+                "CRUD (create - read - update  -delete )real estate",
+                "CRUD (create - read - update  -delete ) locations",
+                "update name and update password",
+                "Reset password",
+                
+            ]
+            
+        },
+        "site":{
+            "site capabilities":[
+                "Last real estate",
+                "all real estate",
+                "Real estate in a designated place",
+            ]
+        }
+    },
+    "4":{
         "title":"Techno - Egaby",
         "description":"An initiative from the Department of Education Technology, Faculty of Specific Education, Fayoum University, to employ tools and content of e-learning to serve the community to raise awareness against the Corona virus.",
         "links":{
@@ -162,7 +189,7 @@
             ]
         }
     },
-    "4":{
+    "5":{
         "title":"Share your bag [ S . Y . B ]",
         "description":"It is a site that allows you to share your files with others and protect them",
         "links":{
@@ -199,7 +226,7 @@
             ]
         }
     },
-    "5":{
+    "6":{
         "title":"Blog API Laravel",
         "description":"Building an API using Laravel and JWT ( Multi Auth )",
         "links":{
@@ -224,7 +251,7 @@
             ]
         }
     },
-    "6":{
+    "7":{
         "title":"CRUD API PHP",
         "description":"Building an API using PHP and JWT ",
         "links":{
@@ -242,7 +269,7 @@
             ]
         }
     },
-    "7":{
+    "8":{
         "title":"Second step",
         "description":"A site to view videos from playlists from YouTube",
         "links":{
@@ -262,7 +289,7 @@
             ]
         }
     },
-    "8":{
+    "9":{
         "title":"Learn premiere and aftereffects",
         "description":" [ Same idea as Second step ] A site to view videos from playlists from YouTube",
         "links":{
@@ -282,7 +309,7 @@
             ]
         }
     },
-    "9":{
+    "10":{
         "title":"Chat",
         "description":"A Group Chat",
         "links":{
@@ -299,7 +326,7 @@
             ]
         }
     },
-    "10":{
+    "11":{
         "title":"MVC ARCHITECTURE",
         "description":"Model - View - Controller Architecture",
         "links":{
@@ -311,7 +338,7 @@
         "dashboard":null,
         "site":null
     },
-    "11":{
+    "12":{
         "title":"EASY SHOPPING CART",
         "description":"It is a package to facilitate the shopping card",
         "links":{
@@ -323,7 +350,7 @@
         "dashboard":null,
         "site":null
     },
-    "12":{
+    "13":{
         "title":"VALIDATOR FILTER PHP",
         "description":"package to facilitate validation and filtering in PHP",
         "links":{
