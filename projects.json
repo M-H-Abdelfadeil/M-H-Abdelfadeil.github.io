@@ -1,0 +1,339 @@
+{
+    "1":{
+        "title":"Space travel",
+        "description":"The graduation project is an educational website that uses gamification, any elements of digital games, as it makes the student immerse himself in education without feeling bored.",
+        "links":{
+            "site":"https://spacetravel-edu.com",
+            "youtube":"https://www.youtube.com/watch?v=A95Q0fDyQ00",
+            "github":null
+        },
+        "tools":"MySQL - Laravel",
+        "dashboard":{
+            "Home Page":[
+                "Statistics on: the number of students - the number of directors - the number of files - the number of tests",
+                "graph of Number of students - Number of principals - Number of files - Number of exams and about Multimedia such as images - videos - audio files and about Evaluations (correct evaluations - wrong evaluations - expected evaluations)"
+            ],
+            "Student Pages":[
+                "Adding a new student (student name - user name - password - confirm password - Currencies (which are the currencies in which the request begins and their default value is 10 -) Points and their value Default 0 (- Note (A default avatar is selected once a student is registered)",
+                "Student display (for a student display in which the student's name, points and coins are displayed)",
+                "View the student's profile, which contains (the name of the student - the avatar used - Avatars obtained from the store - Badge - User - Coins - Points - Stars - Tests he answered - Tests to be evaluated )",
+                "Modify student data (whether the basic data - password) - delete the student"
+            ],
+            "Exam Pages":[
+                "Add a new test (test name - test type (restricted - free answer) - test case (activity - exam) - description of the test - the prize he gets when passing the test - The day on which the test is supposed to be solved (in order to calculate the number of coins when solving the test, then the value) It is given higher if he solves the test before this day ",
+                "View the tests (Type of Test - Test Day)",
+                "View test details ( test name - test description - test type - day Test - multiple test questions dependent on the test - dependent true and false questions to test )",
+                "The number of students who answered the test",
+                "View student results for the test",
+                "Test Creation Timing - Test Update Timing",
+                "Modify the entire test data - delete the test",
+                "View separate free-answer tests",
+                "View the separate restricted answer tests"
+            ],
+            "Levels (meaning content without tests and activities.)":[
+                "Add a new level (title - content background - page background - content[ Texts - Pictures - Videos ...................... ])",
+                "View all levels",
+                "Details of each level (name - content - content background - page background - time - Creation - update time",
+                "Update level data - delete level"
+            ],
+            "questions Pages":[
+                "Adding a multiple-choice question (the question - the four answers - the correct answer - (Choose the exam to which the question belongs)",
+                "Add a true or false question (the question - choosing the correct answer - choosing the exam to which it belongs the question )",
+                "View True or False Questions - View multiple choice questions",
+                "Update question data (answers - question - correct answer - quiz) - Delete question",
+                "Show details of the question (question - choices in the case of multiple choice - answer correct - test dependent on the question - creation time - update timing)"
+            ],
+            "Evaluations (meaning the evaluation of free answer tests)":[
+                "View evaluations (waiting for evaluation - or evaluated, whether true or false)",
+                "View assessment details (student name - test name - assessment - answer file .[on the page or download ])",
+                "Update of the evaluation (modification of grade or repetition)"
+                
+            ],
+            "Store":[
+                "Add an item to the store ( Name - Value - Picture ) ",
+                "View the items in the store",
+                "Edit item - Delete item"
+            ],
+            "management":[
+                "Add a new manager",
+                "view of on-site managers"
+            ],
+            "stages":[
+                "It is intended to display all the tests, activities, the content itself, and the possibility of Sort by drag and drop down or up"
+            ],
+            "Statistics":[
+                "Preliminary statistics about tests and activities (test name - number of students who took it ) performing the test)",
+                "Detailed stats: number of questions - Number of true and false questions - Number of multiple choice questions - The final score for the test or activity - Minimum score for passing the test -The number of students who have solved the test - The number of students who obtained the final degree - The number of students with the lowest passing score - Highest score obtained - average score",
+                "A graph showing the names of the students and their grades"
+            ],
+            "Files management":[
+                "Create File - Create Folder - Upload File - Delete File - Copy Paste - Cut File -  View File - Download the file - Compress the file - Rename the file"
+            ],
+            "Site admin profile":[
+                "Show basic data",
+                "Update Data"
+            ],
+            "Auth":[
+                "login system",
+                "Password recovery system"
+            ]
+        },
+        "site":{
+            "Auth":[
+                "Register System",
+                "Login System"
+            ],
+            "Student Profile": [
+                "Coins - Stars - Points - Badge",
+                "The avatars obtained by the student and the avatars currently in use",
+                "The tests he has solved and the ones that are expected to be evaluated "
+                
+            ],
+            "Other pages":[
+                "Student data edit page",
+                "A home page with icons to either start the room or learn how to get started on the site",
+                "Student leaderboard",
+                "The stages are the stages that have been skipped and the remaining stages",
+                "The work team page, which contains the name of each team member and the e-mail to communicate with him and the task he performed",
+                "The store has all the items that can be purchased according to currencies",
+                "Content pages , which are either questions, whether it is true or false, or multiple choice, or a page with content for the study, or a page with upload files."
+            ]
+        }
+    },
+    "2":{
+        "title":"Plants",
+        "description":"A site for a plant export company With a complete control panel",
+        "links":{
+            "site":"https://plants.spacetravel-edu.com",
+            "youtube":"https://www.youtube.com/watch?v=KWFruHTKgrs",
+            "github":null
+        },
+        "tools":"PHP - Laravel - MySQL",
+        "dashboard":{
+            "control panel capabilities":[
+                "Login system",
+                "Statistics of the number of each of the products, departments, invoices and orders on the site",
+                "sections : Section display - add a section - modify a section - disable or activate the section again - delete the section",
+                "Products : View the product - add a product - modify a product or its image - disable or activate the product again - delete a product",
+                "Invoices : Sending the invoice to the customer's e-mail - Download the invoice as a pdf file - View the invoice - The possibility of multiple products and details for each product - Delete a product from the invoice after writing - Add a shipping value to the invoice - Make a discount on the invoice",
+                "The order : Delete - Edit - View",
+                "I set up the site Such as name, mail and contact links"
+            ]
+        },
+        "site":{
+            "site capabilities":[
+                "View the latest products",
+                "Contact us page",
+                "Display the products of each department separately",
+                "View all products",
+                "Show product details and the ability to share it on social media or copy the link",
+                "Related products",
+                "product bag (edit, delete or add)",
+                "A complete filter and search system, whether by name, price, department, or all of them"
+            ] 
+        }
+    },
+    "3":{
+        "title":"Techno - Egaby",
+        "description":"An initiative from the Department of Education Technology, Faculty of Specific Education, Fayoum University, to employ tools and content of e-learning to serve the community to raise awareness against the Corona virus.",
+        "links":{
+            "site":"http://techno-egaby.c1.biz",
+            "youtube":"https://www.youtube.com/watch?v=ynWScZfRDGw",
+            "github":"https://github.com/M-H-Abdelfadeil/Techno-Egaby"
+        },
+        "tools":"PHP - MySQL",
+        "dashboard":{
+            "control panel capabilities":[
+                "Post approval",
+                "delete Popst",
+                "Edit Post",
+                "Login system",
+                "View Posts"
+            ]
+            
+        },
+        "site":{
+            "site capabilities":[
+                "The home page, which is an introduction to the site",
+                "View Posts",
+                "Create Post",
+                "complainments",
+                "about"
+            ]
+        }
+    },
+    "4":{
+        "title":"Share your bag [ S . Y . B ]",
+        "description":"It is a site that allows you to share your files with others and protect them",
+        "links":{
+            "site":"https://syb.spacetravel-edu.com",
+            "youtube":"https://www.youtube.com/watch?v=DiPYhMiHqWQ",
+            "github":null
+        },
+        "tools":"HTML - CSS - JQ - Bootstrap - PHP - MySQL",
+        "dashboard":{
+            "control panel capabilities":[
+                "Site stats",
+                "Latest files",
+                "Last users",
+                "Full control for users (delete - add - modify)",
+                "Full control for files (delete - add - modify)",
+                "Add or remove an official"
+            ]
+        },
+        "site":{
+            "site capabilities": [
+                "sign in",
+                "Create an account",
+                "verify your e-mail",
+                "Password recovery",
+                "sign out",
+                "Define space for each user",
+                "Lock the file with a password",
+                "download file",
+                "Upload more than one file",
+                "Delete the file",
+                "Edit email",
+                "Password change",
+                "delete account"
+            ]
+        }
+    },
+    "5":{
+        "title":"Blog API Laravel",
+        "description":"Building an API using Laravel and JWT ( Multi Auth )",
+        "links":{
+            "site":"https://documenter.getpostman.com/view/14176662/TzsWs9gb",
+            "youtube":null,
+            "github":"https://github.com/M-H-Abdelfadeil/blog-api-laravel"
+        },
+        "tools":"Laravel - JWT - MySQL",
+        "dashboard":{
+            "control panel capabilities":[
+                "Login system",
+                "delete user -  delete post",
+                "Create admin - Show admins",
+                "Profile (show - update data - delete )"
+            ]
+        },
+        "site":{
+            "Front capabilities":[
+                "Login system & Register ",
+                "Post (create - show - update  - delete )",
+                "Profile (show - update data - delete )"
+            ]
+        }
+    },
+    "6":{
+        "title":"CRUD API PHP",
+        "description":"Building an API using PHP and JWT ",
+        "links":{
+            "site":"https://github.com/M-H-Abdelfadeil/crud-rest-api-php#readme",
+            "youtube":null,
+            "github":"https://github.com/M-H-Abdelfadeil/crud-rest-api-php"
+        },
+        "tools":"PHP - JWT - MySQL",
+        "dashboard":null,
+        "site":{
+            "Front capabilities":[
+                "Login system & Register ",
+                "Post (create - show - update  - delete )",
+                "Profile (show - update data - delete )"
+            ]
+        }
+    },
+    "7":{
+        "title":"Second step",
+        "description":"A site to view videos from playlists from YouTube",
+        "links":{
+            "site":"https://second-step-edu.herokuapp.com",
+            "youtube":null,
+            "github":null
+        },
+        "tools":"HTML - CSS - JQ - PHP (API Youtube) ",
+        "dashboard":null,
+        "site":{
+            "Front capabilities":[
+                "The home page, which is an introduction to the site",
+                "View Playlists",
+                "View Videos (next - prev)",
+                "Team",
+                "about"
+            ]
+        }
+    },
+    "8":{
+        "title":"Learn premiere and aftereffects",
+        "description":" [ Same idea as Second step ] A site to view videos from playlists from YouTube",
+        "links":{
+            "site":"https://learn-premiere-and-aftereffects.netlify.app",
+            "youtube":null,
+            "github":null
+        },
+        "tools":"HTML - CSS - JQ - PHP (API Youtube) ",
+        "dashboard":null,
+        "site":{
+            "Front capabilities":[
+                "The home page, which is an introduction to the site",
+                "View Playlists",
+                "View Videos (next - prev)",
+                "Team",
+                "about"
+            ]
+        }
+    },
+    "9":{
+        "title":"Chat",
+        "description":"A Group Chat",
+        "links":{
+            "site":null,
+            "youtube":"https://www.youtube.com/watch?v=xt38pALgOyU",
+            "github":"https://github.com/M-H-Abdelfadeil/chat"
+        },
+        "tools":"Laravel - MySQL - JQuery - Redis - Laravel-echo-serve - Socket.io",
+        "dashboard":null,
+        "site":{
+            "Front capabilities":[
+                "Login system & Register ",
+                "chat group"
+            ]
+        }
+    },
+    "10":{
+        "title":"MVC ARCHITECTURE",
+        "description":"Model - View - Controller Architecture",
+        "links":{
+            "site":null,
+            "youtube":null,
+            "github":"https://github.com/M-H-Abdelfadeil/Swing"
+        },
+        "tools":"PHP",
+        "dashboard":null,
+        "site":null
+    },
+    "11":{
+        "title":"EASY SHOPPING CART",
+        "description":"It is a package to facilitate the shopping card",
+        "links":{
+            "site":"https://easy-shopping-cart.netlify.app/",
+            "youtube":null,
+            "github":"https://github.com/M-H-Abdelfadeil/easy-shopping-cart"
+        },
+        "tools":"PHP",
+        "dashboard":null,
+        "site":null
+    },
+    "12":{
+        "title":"VALIDATOR FILTER PHP",
+        "description":"package to facilitate validation and filtering in PHP",
+        "links":{
+            "site":null,
+            "youtube":null,
+            "github":"https://github.com/M-H-Abdelfadeil/validator-filter-php"
+        },
+        "tools":"PHP",
+        "dashboard":null,
+        "site":null
+    }
+    
+}
