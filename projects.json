@@ -1,12 +1,69 @@
 {
+    "0":{
+        "title":"Invoice System",
+        "description":"Sales management system for small shops",
+        "links":{
+            "site":"https://invoice-system.spacetravel-edu.com",
+            "youtube":null,
+            "github":null
+        },
+        "image":"https://mahmoud.spacetravel-edu.com/card/invoice-system.jpg",
+        "type":"website",
+        "countImg":20,
+        "folderImg":"invoice-system",
+        "tools":"MySQL - PHP - bot telegram ",
+        "dashboard":{
+                "Home Page":[
+                    "The number of products, the number of invoices, the number of fully paid and partially paid invoices",
+                    "Caution in case of few products",
+                    "The last products added and the latest  invoices added"
+                ],
+                "Products":[
+                    "Add a new product (name, price, quantity, quantity, give attention to the few, buy price, sell price, and its group)",
+                    "Edit product data (name, price, quantity, quantity, give attention to small number, buy price, sell price, and group to which it belongs)",
+                    "delete product",
+                    "Export products as PDF and xls"
+                ],
+                "groups":[
+                    "Add a new group (name,Decrease or increase in the group)",
+                    "Edit group data (name,Decrease or increase in the group)"
+                ],
+                "invoices":[
+                    "Add a new invoice and Edit invoice data (Customer name - Invoice date - Add an unlimited number of products in the invoice [product name - purchase price - sale price - discount - total before and after discount] - total invoice price - total discount on the invoice - shipping price - what was paid from the invoice account - The remainder of the invoice account - cut an amount from the invoice - invoice profits)",
+                    "delete invoice",
+                    "View fully paid invoices or partially paid invoices",
+                    "Add, modify or delete a paid invoice and the date paid",
+                    "Add or modify products refer to the invoice ",
+                    "Sales data page in which data such as sales, sales of the day and profits are displayed",
+                    "view all paid"
+                ],
+                "setting":[
+                    "edit name",
+                    "edit password"
+                ],
+                "Backup":[
+                    "Backup to the device",
+                    "Backup to e-mail",
+                    "Backup to Telegram "
+                ],
+                "mode":[
+                    "Dark or light mode"
+                ]
+        },
+        "site":null
+    },
     "1":{
         "title":"Space travel",
-        "description":"The graduation project is an educational website that uses gamification, any elements of digital games, as it makes the student immerse himself in education without feeling bored.",
+        "description":"The graduation project . uses  elements of digital games, as it makes the student immerse himself in education .",
         "links":{
             "site":"https://spacetravel-edu.com",
             "youtube":"https://www.youtube.com/watch?v=A95Q0fDyQ00",
             "github":null
         },
+        "image":"https://mahmoud.spacetravel-edu.com/card/space-travel.jpg",
+        "type":"website",
+        "countImg":34,
+        "folderImg":"space-travel",
         "tools":"MySQL - Laravel",
         "dashboard":{
             "Home Page":[
@@ -99,6 +156,7 @@
                 "Content pages , which are either questions, whether it is true or false, or multiple choice, or a page with content for the study, or a page with upload files."
             ]
         }
+
     },
     "2":{
         "title":"Plants",
@@ -108,6 +166,11 @@
             "youtube":"https://www.youtube.com/watch?v=KWFruHTKgrs",
             "github":null
         },
+        "image":"https://mahmoud.spacetravel-edu.com/card/plants.jpg",
+        "type":"website"
+        ,
+        "countImg":20,
+        "folderImg":"plants",
         "tools":"PHP - Laravel - MySQL",
         "dashboard":{
             "control panel capabilities":[
@@ -132,6 +195,7 @@
                 "A complete filter and search system, whether by name, price, department, or all of them"
             ] 
         }
+
     },
     "3":{
         "title":"DEV EGY",
@@ -141,6 +205,11 @@
             "youtube":null,
             "github":null
         },
+        "image":"https://mahmoud.spacetravel-edu.com/card/dev-eg.jpg",
+        "type":"website"
+        ,
+        "countImg":10,
+        "folderImg":"dev-egy",
         "tools":"PHP - MySQL",
         "dashboard":{
             "control panel capabilities":[
@@ -162,12 +231,17 @@
     },
     "4":{
         "title":"Techno - Egaby",
-        "description":"An initiative from the Department of Education Technology, Faculty of Specific Education, Fayoum University, to employ tools and content of e-learning to serve the community to raise awareness against the Corona virus.",
+        "description":"An initiative from the Department of Education Technology, Faculty of Specific Education, Fayoum University.",
         "links":{
-            "site":"http://techno-egaby.c1.biz",
+            "site":"https://techno-egaby.spacetravel-edu.com",
             "youtube":"https://www.youtube.com/watch?v=ynWScZfRDGw",
             "github":"https://github.com/M-H-Abdelfadeil/Techno-Egaby"
         },
+        "image":"https://mahmoud.spacetravel-edu.com/card/techno-egaby.jpg",
+        "type":"website"
+        ,
+        "countImg":6,
+        "folderImg":"techno",
         "tools":"PHP - MySQL",
         "dashboard":{
             "control panel capabilities":[
@@ -197,6 +271,11 @@
             "youtube":"https://www.youtube.com/watch?v=DiPYhMiHqWQ",
             "github":null
         },
+        "image":"https://mahmoud.spacetravel-edu.com/card/s-y-b.jpg",
+        "type":"website"
+        ,
+        "countImg":10,
+        "folderImg":"s-y-b",
         "tools":"HTML - CSS - JQ - Bootstrap - PHP - MySQL",
         "dashboard":{
             "control panel capabilities":[
@@ -227,6 +306,57 @@
         }
     },
     "6":{
+        "title":"Second step",
+        "description":"A site to view videos from playlists from YouTube",
+        "links":{
+            "site":"https://second-step-edu.herokuapp.com",
+            "youtube":null,
+            "github":null
+        },
+        "image":"https://mahmoud.spacetravel-edu.com/card/second-step.jpg",
+        "type":"packages"
+        ,
+        "countImg":7,
+        "folderImg":"second-step",
+        "tools":"HTML - CSS - JQ - PHP (API Youtube) ",
+        "dashboard":null,
+        "site":{
+            "Front capabilities":[
+                "The home page, which is an introduction to the site",
+                "View Playlists",
+                "View Videos (next - prev)",
+                "Team",
+                "about"
+            ]
+        }
+    },
+    "7":{
+        "title":"Learn premiere and aftereffects",
+        "description":" [ Same idea as Second step ] A site to view videos from playlists from YouTube",
+        "links":{
+            "site":"https://learn-premiere-and-aftereffects.netlify.app",
+            "youtube":null,
+            "github":null
+        },
+        "image":"https://mahmoud.spacetravel-edu.com/card/learn-pre-and-after.jpg",
+        "type":"packages"
+        ,
+        "countImg":6,
+        "folderImg":"learn-pro-and-after",
+        "tools":"HTML - CSS - JQ - PHP (API Youtube) ",
+        "dashboard":null,
+        "site":{
+            "Front capabilities":[
+                "The home page, which is an introduction to the site",
+                "View Playlists",
+                "View Videos (next - prev)",
+                "Team",
+                "about"
+            ]
+        }
+
+    },
+    "8":{
         "title":"Blog API Laravel",
         "description":"Building an API using Laravel and JWT ( Multi Auth )",
         "links":{
@@ -234,6 +364,11 @@
             "youtube":null,
             "github":"https://github.com/M-H-Abdelfadeil/blog-api-laravel"
         },
+        "image":"https://mahmoud.spacetravel-edu.com/card/blog-api-laravel.jpg",
+        "type":"website"
+        ,
+        "countImg":1,
+        "folderImg":"api-laravel",
         "tools":"Laravel - JWT - MySQL",
         "dashboard":{
             "control panel capabilities":[
@@ -251,7 +386,7 @@
             ]
         }
     },
-    "7":{
+    "9":{
         "title":"CRUD API PHP",
         "description":"Building an API using PHP and JWT ",
         "links":{
@@ -259,6 +394,11 @@
             "youtube":null,
             "github":"https://github.com/M-H-Abdelfadeil/crud-rest-api-php"
         },
+        "image":"https://mahmoud.spacetravel-edu.com/card/crud-api-php.jpg",
+        "type":"website"
+        ,
+        "countImg":1,
+        "folderImg":"api-php",
         "tools":"PHP - JWT - MySQL",
         "dashboard":null,
         "site":{
@@ -269,64 +409,7 @@
             ]
         }
     },
-    "8":{
-        "title":"Second step",
-        "description":"A site to view videos from playlists from YouTube",
-        "links":{
-            "site":"https://second-step-edu.herokuapp.com",
-            "youtube":null,
-            "github":null
-        },
-        "tools":"HTML - CSS - JQ - PHP (API Youtube) ",
-        "dashboard":null,
-        "site":{
-            "Front capabilities":[
-                "The home page, which is an introduction to the site",
-                "View Playlists",
-                "View Videos (next - prev)",
-                "Team",
-                "about"
-            ]
-        }
-    },
-    "9":{
-        "title":"Learn premiere and aftereffects",
-        "description":" [ Same idea as Second step ] A site to view videos from playlists from YouTube",
-        "links":{
-            "site":"https://learn-premiere-and-aftereffects.netlify.app",
-            "youtube":null,
-            "github":null
-        },
-        "tools":"HTML - CSS - JQ - PHP (API Youtube) ",
-        "dashboard":null,
-        "site":{
-            "Front capabilities":[
-                "The home page, which is an introduction to the site",
-                "View Playlists",
-                "View Videos (next - prev)",
-                "Team",
-                "about"
-            ]
-        }
-    },
-    "10":{
-        "title":"Chat",
-        "description":"A Group Chat",
-        "links":{
-            "site":null,
-            "youtube":"https://www.youtube.com/watch?v=xt38pALgOyU",
-            "github":"https://github.com/M-H-Abdelfadeil/chat"
-        },
-        "tools":"Laravel - MySQL - JQuery - Redis - Laravel-echo-serve - Socket.io",
-        "dashboard":null,
-        "site":{
-            "Front capabilities":[
-                "Login system & Register ",
-                "chat group"
-            ]
-        }
-    },
-    "11":{
+     "10":{
         "title":"MVC ARCHITECTURE",
         "description":"Model - View - Controller Architecture",
         "links":{
@@ -334,11 +417,16 @@
             "youtube":null,
             "github":"https://github.com/M-H-Abdelfadeil/Swing"
         },
+        "image":"https://mahmoud.spacetravel-edu.com/card/mvc.jpg",
+        "type":"website"
+        ,
+        "countImg":1,
+        "folderImg":"mvc",
         "tools":"PHP",
         "dashboard":null,
         "site":null
     },
-    "12":{
+    "11":{
         "title":"EASY SHOPPING CART",
         "description":"It is a package to facilitate the shopping card",
         "links":{
@@ -346,11 +434,16 @@
             "youtube":null,
             "github":"https://github.com/M-H-Abdelfadeil/easy-shopping-cart"
         },
+        "image":"https://mahmoud.spacetravel-edu.com/card/shopping-cart.jpg",
+        "type":"website"
+        ,
+        "countImg":1,
+        "folderImg":"shpping-cart",
         "tools":"PHP",
         "dashboard":null,
         "site":null
     },
-    "13":{
+    "12":{
         "title":"VALIDATOR FILTER PHP",
         "description":"package to facilitate validation and filtering in PHP",
         "links":{
@@ -358,9 +451,16 @@
             "youtube":null,
             "github":"https://github.com/M-H-Abdelfadeil/validator-filter-php"
         },
+        "image":"https://mahmoud.spacetravel-edu.com/card/validate-filter.jpg",
+        "type":"website"
+        ,
+        "countImg":1,
+        "folderImg":"filter",
         "tools":"PHP",
         "dashboard":null,
         "site":null
     }
+
+
     
 }
