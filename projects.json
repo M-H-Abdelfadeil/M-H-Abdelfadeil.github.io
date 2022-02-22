@@ -1,58 +1,48 @@
 {
-    "0":{
-        "title":"Invoice System",
-        "description":"Sales management system for small shops",
+   
+    "1":{
+        "title":"Plants",
+        "description":"A site for a plant export company With a complete control panel",
         "links":{
-            "site":"https://invoice-system.spacetravel-edu.com",
+            "site":"https://app-plants.spacetravel-edu.com",
             "youtube":null,
             "github":null
         },
-        "image":"https://mahmoud.spacetravel-edu.com/card/invoice-system.jpg",
-        "type":"website",
-        "countImg":20,
-        "folderImg":"invoice-system",
-        "tools":"MySQL - PHP - bot telegram ",
+        "image":"https://mahmoud.spacetravel-edu.com/card/plants.jpg",
+        "type":"website"
+        ,
+        "countImg":29,
+        "folderImg":"plants",
+        "tools":"Laravel - MySQL - PUSHER",
         "dashboard":{
-                "Home Page":[
-                    "The number of products, the number of invoices, the number of fully paid and partially paid invoices",
-                    "Caution in case of few products",
-                    "The last products added and the latest  invoices added"
-                ],
-                "Products":[
-                    "Add a new product (name, price, quantity, quantity, give attention to the few, buy price, sell price, and its group)",
-                    "Edit product data (name, price, quantity, quantity, give attention to small number, buy price, sell price, and group to which it belongs)",
-                    "delete product",
-                    "Export products as PDF and xls"
-                ],
-                "groups":[
-                    "Add a new group (name,Decrease or increase in the group)",
-                    "Edit group data (name,Decrease or increase in the group)"
-                ],
-                "invoices":[
-                    "Add a new invoice and Edit invoice data (Customer name - Invoice date - Add an unlimited number of products in the invoice [product name - purchase price - sale price - discount - total before and after discount] - total invoice price - total discount on the invoice - shipping price - what was paid from the invoice account - The remainder of the invoice account - cut an amount from the invoice - invoice profits)",
-                    "delete invoice",
-                    "View fully paid invoices or partially paid invoices",
-                    "Add, modify or delete a paid invoice and the date paid",
-                    "Add or modify products refer to the invoice ",
-                    "Sales data page in which data such as sales, sales of the day and profits are displayed",
-                    "view all paid"
-                ],
-                "setting":[
-                    "edit name",
-                    "edit password"
-                ],
-                "Backup":[
-                    "Backup to the device",
-                    "Backup to e-mail",
-                    "Backup to Telegram "
-                ],
-                "mode":[
-                    "Dark or light mode"
-                ]
+            "control panel capabilities":[
+               
+                "Management  - Multi Role (Owner - admin - bloger)",
+                "Categories : create  - delete - update - read ",
+                "Products :  create -  delete - update - read ",
+                "Orders  :   delete - update - read",
+                "Users :  edit -  read" , 
+                "Settings",
+                "Posts :  create(description full editor(style char and upload files ,..... ))  - delete - update - read",
+                "Services :  create  - delete - update - read",
+                "Messages : delete - read",
+                "Notification : database - broadcust(PUSHER) , mail"
+            ]
         },
-        "site":null
+        "site":{
+            "site capabilities":[
+                "Auth",
+                "Home :  services ,  Latest Products , Latest Posts",
+                "Contact us page",
+                "Products : show products filter(name , min price and max price , category )",
+                "Shopping CART",
+                "Payments (VISA  - MADA - MASTERCARD AND PAYPAL) ",
+                "Multi lang"
+            ] 
+        }
+
     },
-    "1":{
+    "2":{
         "title":"Space travel",
         "description":"The graduation project . uses  elements of digital games, as it makes the student immerse himself in education .",
         "links":{
@@ -158,46 +148,29 @@
         }
 
     },
-    "2":{
-        "title":"Plants",
-        "description":"A site for a plant export company With a complete control panel",
+    "3":{
+        "title":"BLOG",
+        "description":"BLOG",
         "links":{
-            "site":"https://plants.spacetravel-edu.com",
-            "youtube":"https://www.youtube.com/watch?v=KWFruHTKgrs",
-            "github":null
+            "site":"https://blog.spacetravel-edu.com",
+            "youtube":null,
+            "github":"https://github.com/M-H-Abdelfadeil/blog-php-mysql"
         },
-        "image":"https://mahmoud.spacetravel-edu.com/card/plants.jpg",
+        "image":"https://mahmoud.spacetravel-edu.com/card/blog.jpg",
         "type":"website"
         ,
-        "countImg":20,
-        "folderImg":"plants",
-        "tools":"PHP - Laravel - MySQL",
-        "dashboard":{
-            "control panel capabilities":[
-                "Login system",
-                "Statistics of the number of each of the products, departments, invoices and orders on the site",
-                "sections : Section display - add a section - modify a section - disable or activate the section again - delete the section",
-                "Products : View the product - add a product - modify a product or its image - disable or activate the product again - delete a product",
-                "Invoices : Sending the invoice to the customer's e-mail - Download the invoice as a pdf file - View the invoice - The possibility of multiple products and details for each product - Delete a product from the invoice after writing - Add a shipping value to the invoice - Make a discount on the invoice",
-                "The order : Delete - Edit - View",
-                "I set up the site Such as name, mail and contact links"
-            ]
-        },
+        "countImg":6,
+        "folderImg":"blog",
+        "tools":"OOP PHP - MySQL",
+        "dashboard":null,
         "site":{
             "site capabilities":[
-                "View the latest products",
-                "Contact us page",
-                "Display the products of each department separately",
-                "View all products",
-                "Show product details and the ability to share it on social media or copy the link",
-                "Related products",
-                "product bag (edit, delete or add)",
-                "A complete filter and search system, whether by name, price, department, or all of them"
-            ] 
+                "Post create - delete - update - read",
+                "Profile : edit - show"
+            ]
         }
-
     },
-    "3":{
+    "4":{
         "title":"DEV EGY",
         "description":"A company dedicated to real estate, whether it is apartments, administrative units and other units",
         "links":{
@@ -229,7 +202,7 @@
             ]
         }
     },
-    "4":{
+    "5":{
         "title":"Techno - Egaby",
         "description":"An initiative from the Department of Education Technology, Faculty of Specific Education, Fayoum University.",
         "links":{
@@ -263,7 +236,7 @@
             ]
         }
     },
-    "5":{
+    "6":{
         "title":"Share your bag [ S . Y . B ]",
         "description":"It is a site that allows you to share your files with others and protect them",
         "links":{
@@ -305,7 +278,7 @@
             ]
         }
     },
-    "6":{
+    "7":{
         "title":"Second step",
         "description":"A site to view videos from playlists from YouTube",
         "links":{
@@ -330,7 +303,7 @@
             ]
         }
     },
-    "7":{
+    "8":{
         "title":"Learn premiere and aftereffects",
         "description":" [ Same idea as Second step ] A site to view videos from playlists from YouTube",
         "links":{
@@ -356,7 +329,7 @@
         }
 
     },
-    "8":{
+    "9":{
         "title":"Blog API Laravel",
         "description":"Building an API using Laravel and JWT ( Multi Auth )",
         "links":{
@@ -386,7 +359,7 @@
             ]
         }
     },
-    "9":{
+    "10":{
         "title":"CRUD API PHP",
         "description":"Building an API using PHP and JWT ",
         "links":{
@@ -409,7 +382,7 @@
             ]
         }
     },
-     "10":{
+     "11":{
         "title":"MVC ARCHITECTURE",
         "description":"Model - View - Controller Architecture",
         "links":{
@@ -426,7 +399,7 @@
         "dashboard":null,
         "site":null
     },
-    "11":{
+    "12":{
         "title":"EASY SHOPPING CART",
         "description":"It is a package to facilitate the shopping card",
         "links":{
@@ -443,7 +416,7 @@
         "dashboard":null,
         "site":null
     },
-    "12":{
+    "13":{
         "title":"VALIDATOR FILTER PHP",
         "description":"package to facilitate validation and filtering in PHP",
         "links":{
